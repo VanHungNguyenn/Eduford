@@ -31,25 +31,52 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
     </section>
 
+    <!-- Contact us page content  -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9973705477!2d77.35075212054873!3d12.953847734019261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2zQmVuZ2FsdXJ1LCBLYXJuYXRha2EsIOG6pG4gxJDhu5k!5e0!3m2!1svi!2s!4v1617015881748!5m2!1svi!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
 
-    <!-- About Us Content  -->
-    <section class="about-us">
+    <section class="contact-us">
         <div class="row">
-            <div class="about-col">
-                <h1>We are the world's largest university</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam porro quo fuga amet quae consequuntur saepe perspiciatis error tenetur incidunt, ut, harum alias optio dolor quam iusto! Tempora, eius reiciendis.</p>
-                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Bangalore, Karnataka, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <span>
+                        <h5>vanhungnguyenbku@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="images/about.jpg" alt="about">
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name..." name="" id="" required>
+                    <input type="email" name="email" placeholder="Enter email address..." name="" id="" required>
+                    <input type="text" name="subject" placeholder="Enter your subject..." name="" id="" required>
+                    <textarea rows="8" name="message" placeholder="Message..." required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
             </div>
+
         </div>
     </section>
-
-
 
 
     <!-- Footer  -->
